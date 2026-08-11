@@ -1,0 +1,16 @@
+[
+    {
+        "paste_id": "qcxJ587x",
+        "url": "https://pastebin.com/qcxJ587x",
+        "detection_count": 1,
+        "highest_severity": "HIGH",
+        "status": "REVIEW_REQUIRED"
+    },
+    {
+        "paste_id": "3Zm4iag5",
+        "url": "https://pastebin.com/3Zm4iag5",
+        "detection_count": 2,
+        "highest_severity": "MEDIUM",
+        "status": "REVIEW_REQUIRED"
+    }
+]

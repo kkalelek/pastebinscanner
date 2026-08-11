@@ -1,0 +1,69 @@
+[
+    {
+        "type": "GENERIC_API_KEY",
+        "severity": "HIGH",
+        "base_confidence": "MEDIUM",
+        "confidence": "HIGH",
+        "file": "https://pastebin.com/qcxJ587x",
+        "line": 6,
+        "masked_value": "API_************************************b57'",
+        "context": "\"\"\"simple function that looks up the phone number via an api\"\"\" API_************************************b57' # sets payload, sends request to the api and returns the json",
+        "positive_context_keywords": [
+            "api_key"
+        ],
+        "negative_context_keywords": [],
+        "strong_negative_context_keywords": [],
+        "positive_score": 2,
+        "negative_score": 0,
+        "strong_negative_score": 0,
+        "reasons": [
+            "긍정 키워드 'api_key' 발견 (+2)"
+        ],
+        "description": "일반적인 API Key 형식의 문자열 탐지",
+        "status": "REVIEW_REQUIRED"
+    },
+    {
+        "type": "EMAIL",
+        "severity": "MEDIUM",
+        "base_confidence": "MEDIUM",
+        "confidence": "MEDIUM",
+        "file": "https://pastebin.com/3Zm4iag5",
+        "line": 67,
+        "masked_value": "asat***********o.ai",
+        "context": "}, \"sourcePrimaryIdentity\": \"asat***********o.ai\", \"sourceType\": \"ai\",",
+        "positive_context_keywords": [],
+        "negative_context_keywords": [],
+        "strong_negative_context_keywords": [],
+        "positive_score": 0,
+        "negative_score": 0,
+        "strong_negative_score": 0,
+        "reasons": [
+            "문맥상 추가적인 판단 키워드가 확인되지 않음"
+        ],
+        "description": "이메일 주소 형식 탐지",
+        "status": "REVIEW_REQUIRED"
+    },
+    {
+        "type": "EMAIL",
+        "severity": "MEDIUM",
+        "base_confidence": "MEDIUM",
+        "confidence": "LOW",
+        "file": "https://pastebin.com/3Zm4iag5",
+        "line": 70,
+        "masked_value": "Asat***********o.ai",
+        "context": "\"tenantId\": \"testclient\", \"userName\": \"Asat***********o.ai\" }",
+        "positive_context_keywords": [],
+        "negative_context_keywords": [
+            "test"
+        ],
+        "strong_negative_context_keywords": [],
+        "positive_score": 0,
+        "negative_score": -1,
+        "strong_negative_score": 0,
+        "reasons": [
+            "부정 키워드 'test' 발견 (-1)"
+        ],
+        "description": "이메일 주소 형식 탐지",
+        "status": "REVIEW_REQUIRED"
+    }
+]

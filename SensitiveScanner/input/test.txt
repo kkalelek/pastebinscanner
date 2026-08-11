@@ -1,0 +1,26 @@
+This is a sensitive information scanner test.
+
+Email:
+test@example.com
+
+IP:
+192.168.1.100
+
+Example AWS Key:
+AKIA1234567890ABCDEF
+
+JWT:
+token = eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0NTY3ODkwIn0.signature123
+
+API Key Test:
+api_key=TEST_API_KEY_1234567890
+
+Authorization Test:
+Bearer TEST_BEARER_TOKEN_1234567890
+
+API_KEY = 'ABCDEFGHIJKLMNOP'
+
+Private Key:
+-----BEGIN PRIVATE KEY-----
+TEST DATA
+-----END PRIVATE KEY-----

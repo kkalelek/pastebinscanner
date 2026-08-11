@@ -1,0 +1,29 @@
+{
+    "AWS_ACCESS_KEY": {
+        "pattern": "\\bAKIA[0-9A-Z]{16}\\b",
+        "severity": "HIGH",
+        "confidence": "HIGH",
+        "description": "AWS Access Key 형식의 문자열 탐지",
+
+        "positive_keywords": {
+            "aws": 1,
+            "access_key": 1,
+            "credential": 1,
+            "credentials": 1,
+            "secret": 1
+        },
+
+        "negative_keywords": {
+            "test": -1,
+            "demo": -1
+        },
+
+        "strong_negative_keywords": {
+            "example": -2,
+            "sample": -2,
+            "dummy": -2,
+            "fake": -2,
+            "placeholder": -2
+        }
+    }
+}
