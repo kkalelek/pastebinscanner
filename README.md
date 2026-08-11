@@ -714,7 +714,7 @@ SensitiveScanner는 현재 다음과 같은 기능을 갖춘 **규칙 기반 민
 │ Confidence Scoring           │
 │ Severity Classification      │
 │ Sensitive Data Masking       │
-│ JSON / CSV Export             │
+│ JSON / CSV Export            │
 ├──────────────────────────────┤
 │ Pastebin Single Scan         │
 │ Pastebin Batch Scan          │
